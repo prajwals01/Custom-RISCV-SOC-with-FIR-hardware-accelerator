@@ -1,0 +1,73 @@
+$date
+	Tue Mar 31 19:26:00 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module control_unit_tb $end
+$var wire 1 ! regwrite $end
+$var wire 1 " memwrite $end
+$var wire 1 # memtoreg $end
+$var wire 1 $ memread $end
+$var wire 1 % branch $end
+$var wire 1 & alusrc $end
+$var wire 2 ' aluop [1:0] $end
+$var reg 7 ( instruction [6:0] $end
+$scope module uut $end
+$var wire 7 ) instruction [6:0] $end
+$var reg 2 * aluop [1:0] $end
+$var reg 1 & alusrc $end
+$var reg 1 % branch $end
+$var reg 1 $ memread $end
+$var reg 1 # memtoreg $end
+$var reg 1 " memwrite $end
+$var reg 1 ! regwrite $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 *
+b110011 )
+b110011 (
+b1 '
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#10000
+1&
+1#
+1$
+b0 '
+b0 *
+b11 (
+b11 )
+#20000
+0#
+0!
+0$
+1"
+b100011 (
+b100011 )
+#30000
+0&
+0"
+1%
+b1 '
+b1 *
+b1100011 (
+b1100011 )
+#40000
+b1111111 (
+b1111111 )
+#50000
